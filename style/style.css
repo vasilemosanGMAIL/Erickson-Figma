@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Museo Cyrl";
+  src: url("../museocyrl/Museo Cyrl 500.otf");
+}
+
+* {
+  font-size: 13px;
+  font-family: "Museo Cyrl", Helvetica, Arial;
+  color: black;
+  text-align: center;
+}
+
+.customh1font {
+  font-size: 26px;
+  line-height: 126%;
+  font-weight: 600;
+}
+
+p.Weight {
+  font-weight: 600;
+}
+
+.page2 .image, .page2 .rowTwo .image, .page2 .rowThree .image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#header {
+  margin-top: 15px;
+}
+
+#header .list {
+  font-weight: 600;
+  line-height: 17px;
+}
+
+#header .list #start {
+  font-size: 14px;
+  color: #494949;
+  text-transform: uppercase;
+}
+
+#header .list .button_1 {
+  font-weight: 600;
+  line-height: 17px;
+  font-size: 14px;
+  color: white;
+  background: #f1592a;
+  border: 0;
+  border-radius: 3px;
+  width: 73px;
+  height: 21px;
+}
+
+/* Main H1*/
+.HOnePage .orange {
+  color: #f1592a;
+}
+
+.HOnePage .mainHtwo {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.HOnePage p.customHeight {
+  line-height: 17px;
+}
+
+.HOnePage .upper {
+  text-transform: uppercase;
+}
+
+.cardZone .card-body {
+  border: 0;
+  background: linear-gradient(180deg, #6cc8c6 0%, #00918d 100%);
+  border-radius: 10px;
+}
+
+.cardZone .card-body .card-text {
+  margin-top: 15px;
+  line-height: 14px;
+  text-indent: 0rem;
+  font-size: 12px;
+  background-color: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.registration {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 16px;
+  color: white;
+  background: #f1592a;
+  border: 0;
+  border-radius: 30px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*Page 2 section*/
+.page2 .image {
+  margin-left: -50px;
+  box-shadow: 8px 8px rgba(108, 200, 198, 0.5);
+  border-radius: 0px 3px 3px 0px;
+  border-color: rgba(108, 200, 198, 0.5);
+  clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+  background: url(/img/image29.svg);
+}
+
+.page2 .page2font {
+  font-size: 14px;
+  line-height: 120.5%;
+  text-align: left;
+}
+
+.page2 .page2font .highlight {
+  color: #f1592a;
+  font-size: 16px;
+}
+
+.page2 .rowTwo .image {
+  margin-right: -1px;
+  clip-path: polygon(0% 0%, 95% 0%, 95% 100%, 0% 100%);
+  background: url(/img/image30.svg);
+}
+
+.page2 .rowThree .image {
+  margin-left: 1px;
+  clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 5% 100%);
+  background: url(/img/image31.svg);
+}
+/*# sourceMappingURL=style.css.map */

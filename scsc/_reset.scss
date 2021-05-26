@@ -1,0 +1,14 @@
+* {
+  font-size: $mainFontSize;
+  font-family: $mainFont;
+  color: $mainFontColor;
+  text-align: center;
+}
+.customh1font {
+  font-size: $h1FontSize;
+  line-height: 126%;
+  font-weight: $customFontWeight;
+}
+p.Weight {
+  font-weight: $customFontWeight;
+}

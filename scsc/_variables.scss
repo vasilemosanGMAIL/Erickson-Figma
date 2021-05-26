@@ -1,0 +1,19 @@
+$mainFontColor: black;
+$grayFont: #494949;
+$orangeColor: #f1592a;
+$defaultBackgroundColor: white;
+$mainFont: "Museo Cyrl", Helvetica, Arial;
+$h1FontSize: 26px;
+$h2FontSize: 16px;
+$h3FontSize: 14px;
+$h4FontSize: 12px;
+$mainFontSize: 13px;
+$locationOpacity: 1;
+$mainWidth: 100%;
+$mainMargin: auto;
+$customFontWeight: 600;
+
+@font-face {
+  font-family: "Museo Cyrl";
+  src: url("../museocyrl/Museo\ Cyrl\ 500.otf");
+}
